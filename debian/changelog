@@ -1,0 +1,5 @@
+python-ebooklib (0.15-1) unstable; urgency=low
+
+  * Initial upload to Debian, closes: #745542
+
+ -- Daniel James <daniel@64studio.com>  Thu, 24 Apr 2014 16:32:22 +0100
