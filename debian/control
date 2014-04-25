@@ -2,7 +2,7 @@ Source: python-ebooklib
 Section: python
 Priority: optional
 Maintainer: Daniel James <daniel@64studio.com>
-Build-Depends: debhelper (>= 8), dh-python, python-all (>= 2.7.3-4~), python-setuptools, python3-all, python3-setuptools
+Build-Depends: debhelper (>= 8), dh-python, python-all (>= 2.7.3-4~), python-setuptools, python-sphinx (>= 1.0.7+dfsg), python3-all, python3-setuptools, python3-sphinx
 X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.3
 Standards-Version: 3.9.5
