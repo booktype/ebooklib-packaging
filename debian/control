@@ -12,7 +12,7 @@ Vcs-Browser: https://github.com/booktype/ebooklib-packaging
 
 Package: python-ebooklib
 Architecture: all
-Depends: python (>= 2.7), python (<< 2.8), python-lxml, python-six, ${python:Depends}, ${misc:Depends}
+Depends: python-lxml, python-six, ${python:Depends}, ${misc:Depends}
 Description: Python 2 E-book library for handling EPUB2/EPUB3/Kindle formats
  EbookLib is a Python library for managing EPUB2/EPUB3 and Kindle files. It's
  capable of reading and writing EPUB files programmatically (Kindle support is
@@ -25,7 +25,7 @@ Description: Python 2 E-book library for handling EPUB2/EPUB3/Kindle formats
 
 Package: python3-ebooklib
 Architecture: all
-Depends: python3 (>= 3.3), python3 (<< 3.4), python3-lxml, python3-six, ${misc:Depends}
+Depends: python3-lxml, python3-six, ${python3:Depends}, ${misc:Depends}
 Description: Python 3 E-book library for handling EPUB2/EPUB3/Kindle formats
  EbookLib is a Python library for managing EPUB2/EPUB3 and Kindle files. It's
  capable of reading and writing EPUB files programmatically (Kindle support is
